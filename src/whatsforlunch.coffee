@@ -46,8 +46,7 @@ getLunch = (msg, category) ->
       return msg.send "Your category #{category} returned no results. Try again?"
     else
       nomnoms = data.businesses[Math.floor(Math.random() * data.businesses.length)]
-      msg.send "May I suggest #{nomnoms.name}? It has a rating of #{nomnoms.rating}. URL: #{nomnoms.url}"
-
+      msg.send "May I suggest #{nomnoms.name}? It has a rating of #{nomnoms.rating}/5. URL: #{nomnoms.url}"
 
 module.exports = (robot) ->
   robot.respond /lunch me( .*)?/i, (msg) ->
