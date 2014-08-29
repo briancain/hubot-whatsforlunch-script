@@ -2,6 +2,10 @@
 
 Are you tired of figuring out where you should go for lunch? Are decisions just too difficult come noon? Let Hubot give you some suggestions for where you should go!
 
+## Requirements
+
+You need to have access to Yelps API to use this script. Look at their website for more information on how to get the required keys: http://www.yelp.com/developers/manage_api_keys
+
 ## Commands
 
 - hubot lunch me
