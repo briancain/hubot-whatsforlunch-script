@@ -4,12 +4,22 @@ Are you tired of figuring out where you should go for lunch? Are decisions just 
 
 ## Requirements
 
+### Yelp API
+
 You need to have access to Yelps API to use this script. Look at their website for more information on how to get the required keys: http://www.yelp.com/developers/manage_api_keys
+
+### node-yelp
+
+This script hooks into the node-yelp NodeJS package. It's a wrapper for the Yelp V2 API, which makes using the API __very__ easy :)
+
+Should be able to install by doing: `npm install yelp`
+
+https://github.com/olalonde/node-yelp
 
 ## Commands
 
 - hubot lunch me
-- hobot lunch me <category>
+- hobot lunch me category
 
 ## Examples
 
