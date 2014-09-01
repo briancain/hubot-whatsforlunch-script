@@ -1,0 +1,9 @@
+export LATITUDE=0
+export LONGITUDE=0
+export LOCATION="Something Goes Here"
+export RADIUS=805 # 805 meters or 0.5 miles
+
+export CONSUMER_KEY=""
+export CONSUMER_SECRET=""
+export TOKEN=""
+export TOKEN_SECRET=""

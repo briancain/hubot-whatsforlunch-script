@@ -9,6 +9,8 @@
 #  yelp v2 api: http://www.yelp.com/developers/manage_api_keys
 #     - requires keys to query yelp
 #
+#  setting the variables for your environment
+#
 # Commands:
 #   hubot lunch me
 #   hubot lunch me <category?>
@@ -16,15 +18,15 @@
 # Author:
 #   Brian Cain (briancain)
 
-latitude=0
-longitude=0
-location=""
-radius=805 # 805 meters or 0.5 miles
+latitude=process.env.LATITUDE
+longitude=process.env.LONGITUDE
+location=process.env.LOCATION
+radius=process.env.RADIUS
 
-consumer_key=""
-consumer_secret=""
-token=""
-token_secret=""
+consumer_key=process.env.CONSUMER_KEY
+consumer_secret=process.env.CONSUMER_SECRET
+token=process.env.TOKEN
+token_secret=process.env.TOKEN_SECRET
 
 yelp = require("yelp").createClient({
   consumer_key: consumer_key,
